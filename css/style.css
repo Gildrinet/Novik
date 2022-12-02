@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
+    max-width: 940px;
+    width: 100%;
+    margin: auto;
+}
+
+.header-block{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282;
+
+}
+
+.header-link{
+ text-decoration: none;
+ font-size: 18px;
+ line-height: 22px;
+ color: #828282;
+ padding-top: 32px;
+ padding-bottom: 39px;
+}
+
+.promo-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+
+.promo-title{
+font-size: 47.3392px;
+line-height: 59px;
+color: #070707;
+max-width: 123px;
+margin-top: 40px;
+}
+
+.promo-text{
+ font-size: 18px;
+line-height: 22px;
+color: #070707;
+max-width: 155px;
+}
+.promo-leng{
+    transform: rotate(-90deg);
+}
+
+.about{
+    background: #F6F6F6;
+}
+
+.about-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 107px;
+}
+
+.about-title{
+    font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+padding-bottom: 18px;
+}
+
+.about-text{
+    font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+max-width: 455px;
+padding-bottom: 10px;
+}
+
+.skill-box{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-bottom: 109px;
+}
+
+.skill-title{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding-top: 91px;
+    padding-bottom: 69px;
+}
+
+.skill-text{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 83px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.skill-tex{
+    padding-top: 23px;
+    padding-bottom: 41px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+
+.skill-grop{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.portfolio{
+    background: #F6F6F6;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-title{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding-top: 108px;
+    padding-bottom: 47px;
+}
+
+.portfolio-text{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    padding-top: 45px;
+    padding-bottom: 99px;
+}
+
+.promo{
+    margin-bottom: 104px;
+}
+
+.reebok{
+    background: #F6F6F6;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.reebok-text{
+    padding-top: 45px;
+    padding-bottom: 99px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+
+}
+.braun{
+    background: #F6F6F6;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.braun-text{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+    padding-top: 46px;
+    padding-bottom: 91px;
+}
+
+.contacts{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-title{
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    padding-top: 114px;
+    padding-bottom: 20px;
+}
+
+.contacts-text{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    padding-bottom: 30px;
+}
+
+.text{
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+
+.button{
+    margin-bottom: 86px;
+    background-color: #070707;
+    width: 180.5px;
+    height: 42px;
+    left: 634.76px;
+    top: 4388px;
+    border-radius: 20px;
+    color: #F6F6F6;
+    cursor: pointer;
+}
+
+.text{
+    padding-top: 45px;
+    padding-bottom: 123px;
+}
